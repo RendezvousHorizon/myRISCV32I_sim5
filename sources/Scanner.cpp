@@ -13,9 +13,8 @@ void get_mem(char *memm){
     char ch;
     char ch2;
     int add=0;
-    while(true)
+    while(cin>>ch)
     {
-        cin>>ch;
         if(ch=='@'){
             add=0;
             for(int i=0;i<8;i++){
