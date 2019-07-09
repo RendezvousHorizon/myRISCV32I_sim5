@@ -97,7 +97,7 @@ int processing()
         }
     }
     //io.close();
-    std::cout<<(double)correct_prediction/total_prediction<<"\n";
+    //std::cout<<(double)correct_prediction/total_prediction<<"\n";
     return (Rg[10].data&0xff)%253;
 }
 
